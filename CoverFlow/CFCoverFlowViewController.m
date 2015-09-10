@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 asu. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CFCoverFlowViewController.h"
 
-@interface ViewController ()
+@interface CFCoverFlowViewController ()
 
 @end
 
-@implementation ViewController
+@implementation CFCoverFlowViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

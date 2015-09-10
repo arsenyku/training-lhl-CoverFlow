@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 asu. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "CFAppDelegate.h"
 
-@interface AppDelegate ()
+@interface CFAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation CFAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
