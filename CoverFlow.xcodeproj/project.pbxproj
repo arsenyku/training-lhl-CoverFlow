@@ -14,6 +14,7 @@
 		1217CC2A1BA20F88002E98F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1217CC291BA20F88002E98F2 /* Images.xcassets */; };
 		1217CC2D1BA20F88002E98F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1217CC2B1BA20F88002E98F2 /* LaunchScreen.xib */; };
 		1217CC391BA20F88002E98F2 /* CoverFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1217CC381BA20F88002E98F2 /* CoverFlowTests.m */; };
+		12EFFF0D1BA2258000402D3D /* CFCoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EFFF0C1BA2258000402D3D /* CFCoverFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1217CC321BA20F88002E98F2 /* CoverFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoverFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1217CC371BA20F88002E98F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1217CC381BA20F88002E98F2 /* CoverFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverFlowTests.m; sourceTree = "<group>"; };
+		12EFFF0B1BA2258000402D3D /* CFCoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCoverFlowLayout.h; sourceTree = "<group>"; };
+		12EFFF0C1BA2258000402D3D /* CFCoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCoverFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				1217CC211BA20F88002E98F2 /* CFAppDelegate.m */,
 				1217CC231BA20F88002E98F2 /* CFCoverFlowViewController.h */,
 				1217CC241BA20F88002E98F2 /* CFCoverFlowViewController.m */,
+				12EFFF0B1BA2258000402D3D /* CFCoverFlowLayout.h */,
+				12EFFF0C1BA2258000402D3D /* CFCoverFlowLayout.m */,
 				1217CC261BA20F88002E98F2 /* Main.storyboard */,
 				1217CC291BA20F88002E98F2 /* Images.xcassets */,
 				1217CC2B1BA20F88002E98F2 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12EFFF0D1BA2258000402D3D /* CFCoverFlowLayout.m in Sources */,
 				1217CC251BA20F88002E98F2 /* CFCoverFlowViewController.m in Sources */,
 				1217CC221BA20F88002E98F2 /* CFAppDelegate.m in Sources */,
 				1217CC1F1BA20F87002E98F2 /* main.m in Sources */,
@@ -416,6 +422,7 @@
 				1217CC3E1BA20F88002E98F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1217CC3F1BA20F88002E98F2 /* Build configuration list for PBXNativeTarget "CoverFlowTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				1217CC411BA20F88002E98F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
