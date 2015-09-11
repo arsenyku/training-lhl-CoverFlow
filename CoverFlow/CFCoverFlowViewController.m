@@ -27,8 +27,48 @@
                     [UIImage imageNamed:@"IMG7"],
                     [UIImage imageNamed:@"IMG8"],
                     [UIImage imageNamed:@"IMG9"],
+                    [UIImage imageNamed:@"IMG10"],
+                    [UIImage imageNamed:@"IMG1"],
+                    [UIImage imageNamed:@"IMG2"],
+                    [UIImage imageNamed:@"IMG3"],
+                    [UIImage imageNamed:@"IMG4"],
+                    [UIImage imageNamed:@"IMG5"],
+                    [UIImage imageNamed:@"IMG6"],
+                    [UIImage imageNamed:@"IMG7"],
+                    [UIImage imageNamed:@"IMG8"],
+                    [UIImage imageNamed:@"IMG9"],
                     [UIImage imageNamed:@"IMG10"]
                     ];
+
+//    self.photos = @[
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new],
+//                    [UIView new]
+//                    ];
+//    
+//    for (UIView *view in self.photos) {
+//        float red = arc4random_uniform(255);
+//        float green = arc4random_uniform(255);
+//        float blue = arc4random_uniform(255);
+//        view.backgroundColor = [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:1.0];
+//    }
 
 }
 
@@ -48,6 +88,7 @@
                   cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     UICollectionViewCell *cell = (UICollectionViewCell*)[collectionView dequeueReusableCellWithReuseIdentifier:@"flowcell" forIndexPath:indexPath];
     cell.backgroundView = [[UIImageView alloc] initWithImage:self.photos[indexPath.row]];
+    //cell.backgroundColor = ((UIView*)self.photos[indexPath.row]).backgroundColor;
     return cell;
 }
 
